@@ -1,0 +1,18 @@
+#avatars img {
+    height: 310px;
+    width: 310px;
+}
+
+input {
+    display: none;
+}
+
+input:checked + img {
+    border: cyan solid 5px;
+    box-shadow: cyan 0px 0px 10px 0px;
+}
+
+.beginButton {
+    align-items: center;
+    justify-content: center;
+}

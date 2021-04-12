@@ -22,7 +22,7 @@ else {
 
 const goldMessage = goldMessages[goldResult];
 
-let story = 'You have survived, ';
+let story = 'In the end, ';
 story += user.name + ' the ' + user.spec + '. ';
 story += hpMessage + ' and ' + goldMessage + '.';
 

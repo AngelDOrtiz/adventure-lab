@@ -1,8 +1,8 @@
-export default quests;
+
 
 const spidergolem = {
     id: 'spidergolem',
-    title: `The Golemancer's Spider`
+    title: `The Golemancer's Spider`,
     map: {
         top: '28%',
         left: '64%'
@@ -21,7 +21,7 @@ const spidergolem = {
     {
         id: 'repel',
         description: 'Destroy the branch',
-        result: 'You conjure a great force towards the construct. You destroy te branch that the golem was on, causing the golem to fall. It drops some gold',
+        result: 'You conjure a great force towards the construct. You destroy the branch that the golem was on, causing the golem to fall. It drops some gold',
         hp: 0,
         gold: 20
     },
@@ -45,7 +45,7 @@ const spidergolem = {
 
 const chromaland = {
     id: 'chromaland',
-    title: `The World of Colors`
+    title: `The World of Colors`,
     map: {
         top: '74%',
         left: '39%'
@@ -89,7 +89,7 @@ const chromaland = {
 
 const lampMerchant = {
     id: 'lampMerchant',
-    title: `The Lamp Merchant`
+    title: `The Lamp Merchant`,
     map: {
         top: '18%',
         left: '52%'
@@ -101,7 +101,7 @@ const lampMerchant = {
         id: 'red',
         description: 'Choose the red lamp.',
         result: `You choose the red lamp with the anvil motif. A powerfully evil djinn appears from the lamp.
-        "I"M FREEEEEEEE", it yells, as it takes your gold and teleports away. The mercant shrugs.`,
+        "I"M FREEEEEEEE", it yells, as it takes your gold and teleports away. The merchant shrugs.`,
         hp: 0,
         gold: -30
     },
@@ -139,3 +139,4 @@ const quests = [
     lampMerchant,
 ];
 
+export default quests;

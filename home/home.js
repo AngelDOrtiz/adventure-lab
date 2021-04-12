@@ -3,7 +3,7 @@ import { saveUser } from '../data/api.js';
 
 const heroRegistration = document.getElementById('hero-registration');
 
-heroRegistration.addEventListener('submit', function (event) {
+heroRegistration.addEventListener('submit', function(event) {
     event.preventDefault();
 
     const formData = new FormData(heroRegistration);

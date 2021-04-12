@@ -1,5 +1,5 @@
-function makeHero(formData) {
-    const hero = {
+function makeUser(formData) {
+    const user = {
         name: formData.get('name'),
         spec: formData.get('spec'),
         hp: 40,
@@ -7,10 +7,10 @@ function makeHero(formData) {
         completed: {}
     };
 
-    return hero;
+    return user;
 }
 
-export const newMakeHero = (formData) => ({
+export const newMakeUser = (formData) => ({
     name: formData.get('name'),
     spec: formData.get('spec'),
     hp: 40,
@@ -18,4 +18,4 @@ export const newMakeHero = (formData) => ({
     completed: {}
 });
 
-export default makeHero;
+export default makeUser;
